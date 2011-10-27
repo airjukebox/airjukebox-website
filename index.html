@@ -1,7 +1,51 @@
 <html>
   <head>
     <title>airjukebox.org - the democratic virtual jukebox project</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <meta name="description" content="Air Jukebox allows people to create their own 'virtual jukebox' at events and venues, allowing participants to request and vote on song requests" />
+    <meta name="keywords" content="music jukebox software democratic voting" />
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="header">
+      <span class="air">air</span><span class="jukebox">jukebox</span>
+      <span class="preferences">
+        <img src="img/flags/us.png" />
+        <img src="img/flags/gb.png" />
+        <img src="img/flags/de.png" />
+        <img src="img/flags/es.png" />
+        <img src="img/flags/it.png" />
+        <img src="img/flags/fr.png" />
+        <img src="img/flags/pl.png" />
+      </span>
+    </div>
+    <hr />
+    <div id="content">
+      <p>Air Jukebox is a <strong>free</strong> Android application which allows anyone to create and take part in <strong>social group playlists</strong>.  Music can be <strong>streamed on-demand</strong> from the cloud at <strong>zero cost</strong>, so there's no need to organize your music in advance!</p>
+      <p>Instantly create a playlist for your event, party or gathering -- just install the application, connect your speakers/audio to your phone, and launch the Air Jukebox app to get started!  Anyone with the app at your event will be able to submit song requests, and vote on what's playing next.</p>
+      <p>We want to create the best way to share music with friends; all we ask in return is that you use it, spread the word, and/or donate to the project if you feel we're doing a good thing!</p>
+    </div>
+    <div id="footer">
+      <img src="img/android-market.png" height="75" />
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      <img src="img/grooveshark.png" height="75" />
+      <a href="http://www.twitter.com/airjukebox"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-a.png" alt="Follow airjukebox on Twitter"/></a>
+      <div class="fb-like" data-href="https://www.facebook.com/pages/airjukebox/131642606940245" data-send="true" data-width="450" data-show-faces="true"></div>
+      <p><strong>Geek tip</strong>: Air Jukebox is <em>open source</em> software: if you -- or anyone you know -- has the technical skills, you're free to <a href="https://github.com/airjukebox">contribute modifications/improvements</a> to it.  Our <a href="docs/index.html">documentation</a> might be of interest for the curious.</p>
+    </div>
   </body>
 </html>

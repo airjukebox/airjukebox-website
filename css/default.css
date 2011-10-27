@@ -1,0 +1,36 @@
+body {
+	font-family: sans-serif;
+}
+
+#header {
+	font-size: 32px;
+}
+
+#header span.air {
+	color: #8080f0;
+}
+
+#header span.jukebox {
+	color: #40a040;
+}
+
+#header span.preferences {
+	float: right;
+
+	font-size: 12px;
+}
+
+#footer img {
+	float: left;
+}
+
+#footer form {
+	padding-top: 16px;
+	float: left;
+}
+
+#footer p {
+	clear: both;
+
+	font-size: 12px;
+}
