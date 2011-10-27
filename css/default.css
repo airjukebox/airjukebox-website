@@ -25,6 +25,8 @@ body {
 }
 
 #footer form {
+	clear: both;
+
 	padding-top: 16px;
 	float: left;
 }
